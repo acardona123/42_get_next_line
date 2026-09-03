@@ -15,7 +15,7 @@ clear && cc get_next_line_bonus.c get_next_line_utils_bonus.c maintest.c -D BUFF
 int main (int ac,char **av)
 {
 
-	char *file1 = "multiple_nlx5";//"apodat.txt";
+	char *file1 = "text.txt";
 	char *file2 = "text1.txt";
 
 	if (ac!= 2)
